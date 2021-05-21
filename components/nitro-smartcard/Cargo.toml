@@ -1,0 +1,22 @@
+[package]
+name = "nitro-smartcard"
+version = "0.0.1"
+authors = ["fairlight <fairlight@nitrokey.com>"]
+edition = "2021"
+repository = "https://github.com/fayrlight/trussed"
+license = "Unlicense"
+description = "OpenPGP Smartcard v3.4 Trussed Impl"
+readme = "README.md"
+
+[dependencies]
+trussed = "0.1.0"
+
+[features]
+default = []
+
+log-all = []
+log-none = []
+log-info = []
+log-debug = []
+log-warn = []
+log-error = []
